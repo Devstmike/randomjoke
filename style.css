@@ -9,6 +9,7 @@ body{
     background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/2156416/pexels-photo-2156416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     opacity: 1;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,15 +62,15 @@ h1{
 
 
 @keyframes example {
-    10%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");}
-    20%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");}
-    30%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");}
-    40%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/6147410/pexels-photo-6147410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");}
-    50%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/5727740/pexels-photo-5727740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");}
-    70%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/4148842/pexels-photo-4148842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");}
-    80%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/1975989/pexels-photo-1975989.jpeg?auto=compress&cs=tinysrgb&w=600");}
-    90%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/6836415/pexels-photo-6836415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");}
-    100%  {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/5733432/pexels-photo-5733432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");}   
+    10%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");background-size: cover;background-repeat: no-repeat;}
+    20%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");background-size: cover;background-repeat: no-repeat;}
+    30%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");background-size: cover;background-repeat: no-repeat;}
+    40%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/6147410/pexels-photo-6147410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");background-size: cover;background-repeat: no-repeat;}
+    50%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/5727740/pexels-photo-5727740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");background-size: cover;background-repeat: no-repeat;}
+    70%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/4148842/pexels-photo-4148842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");background-size: cover;background-repeat: no-repeat;}
+    80%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/1975989/pexels-photo-1975989.jpeg?auto=compress&cs=tinysrgb&w=600");background-size: cover;background-repeat: no-repeat;}
+    90%   {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/6836415/pexels-photo-6836415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");background-size: cover;background-repeat: no-repeat;}
+    100%  {background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/5733432/pexels-photo-5733432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");background-size: cover;background-repeat: no-repeat;}   
   }
 
 
